@@ -1,0 +1,88 @@
+* {
+  font-family: Verdana, sans-serif;
+  word-spacing: 0;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul.nav {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+li.nav {
+  display: inline;
+  float: left;
+  color: black;
+  margin-right: 3px;
+  text-align: center;
+}
+
+.horiz {
+  display:block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  color:white;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://images.ctfassets.net/nnkxuzam4k38/2SvDjcgyav5C1DOb79JKXl/d3b06db5bb6bdb4ab237f666b5b4980e/compute-ea4c57a4.png");
+  background-color: white;
+  background-blend-mode: multiply;
+}
+
+p {
+  color: white;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 10px;
+  background: black;
+  text-align: center;
+}
+
+.centerandwhite {
+  text-align: center;
+  color: white;
+  background-color: black;
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+}
+
+table {
+  color: white;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 10px;
+  background: black;
+  border-collapse: collapse;
+}
+td  {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  text-align: right;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.left {
+  text-align: left;
+}
